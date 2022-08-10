@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,17 +8,20 @@
     <title>YouX - Agencia de Marketing Digital</title>
     <link rel="shortcut icon" href="./img/logo.svg" type="image/x-icon">
     <link rel="stylesheet" href="./css/index.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 <!--inicio del Body !-->
+
 <body>
     <!--header-->
     <header class="header">
-        
+
         <nav class="header__nav">
             <img class="header__logo" src="./img/logo.svg" alt="YouX">
             <ul class="header__ul">
                 <li class="header__li">
-                    <a  href="./index.html">Home</a>
+                    <a href="./index.html">Home</a>
                 </li>
                 <li class="header__li">
                     <a href="./pages/ecommerce.html">Ecommerce</a>
@@ -35,121 +39,130 @@
         </nav>
 
     </header>
-<!--Fin header-->
-<!--Inicio-->
+    <!--Fin header-->
+    <!--Inicio-->
 
-<main class="conteiner">
+    <main class="conteiner">
 
-    <section class="present">
+        <section class="present">
 
-        <article>
-        <h1 class="titulo"> YouX
-            Agencia de 
-            Marketing
-            Digital</h1>
-            <h2 class="titulo2">Servicios de Publicidad y Marketing para Ecommerce</h2>
-            <img class="contactanos1" src="./img/botoncontactanos.png" alt="contactanos">
+            <article>
+                <h1 class="titulo"> YouX
+                    Agencia de
+                    Marketing
+                    Digital</h1>
+                <h2 class="titulo2">Servicios de Publicidad y Marketing para Ecommerce</h2>
+                <img class="contactanos1" src="./img/botoncontactanos.png" alt="contactanos">
+            </article>
+        </section>
+
+        <!--Fin inicio-->
+        <!--tarjetas-->
+        <h3>SERVICIOS</h3>
+        <section class="tarjetasPrincipal">
+            <article class="tarjetas1">
+                <h2>Tienda Online</h2>
+                <img src="./img/img1.jpg" alt="img1" data-aos="fade-up-right">
+            </article>
+
+            <article class="tarjetas2">
+                <h2>Inboud Marketing</h2>
+                <img src="./img/img2.jpg" alt="img2" data-aos="fade-up-right">
+            </article>
+
+            <article class="tarjetas3">
+                <h2>Email Marketing</h2>
+                <img src="./img/img3.jpg" alt="img3" data-aos="fade-up-right">
+
+            </article>
+
+            <article class="tarjetas4">
+                <h2>Web</h2>
+                <img src="./img/img4.jpg" alt="img4" data-aos="fade-up-right">
+            </article>
+
+            <article class="tarjetas5">
+                <h2>Sitio Institucional</h2>
+                <img src="./img/img5.jpg" alt="img5" data-aos="fade-up-right">
+            </article>
+
+            <article class="tarjetas6">
+                <h2>Landing Web</h2>
+                <img src="./img/img6.jpg" alt="img6" data-aos="fade-up-right">
+            </article>
+        </section>
+
+        <!--fin tarjetas-->
+        <!--COMO VENDER??-->
+        <section class="comoVender">
+            <article class="comoVender2">
+                <h2>COMO VENDER EN INTERNET</h2>
+                <P>YouX Ecommerce, es la mejor solución disponible para desarrollar tu comercio electrónico totalmente
+                    personalizado que atrae y convierte visitantes en compradores</P>
+            </article>
+            <img class="cV2" src="./img/comovender.jpg" alt="como-vender" data-aos="fade-up-right">
+        </section>
+        <!--COMO VENDER??-->
+        <!--quienes somos?-->
+        <section class="quienesSomos">
+            <article class="quienesSomos2">
+                <h3>Quienes Somos?</h3>
+                <p>Somos una agencia de marketing digital multiservicio operando desde el 2022
+                    Nuestra promesa es generar y desarrollar las estrategias de marketing digital orientadas a objetivos
+                    de comunicación y comerciales. Aplicada a nuestra experiencia, disciplina y creativas con ideas
+                    innovadoras.
+                    Hemos desarrollado campañas y proyectos en 18 países.
+                    LIMA - RIO DE JANEIRO</p>
+            </article>
+            <img src="./img/quienesomos.jpg" alt="quiene-somos" data-aos="fade-up-right">
+        </section>
+        <section class="formulario">
+            <h2>Consulta por nuestros servicios</h2>
+            <form action="exitoso.html" method="get" enctype="application/x-www-form-urlencoded">
+                <p>Nombre:</p>
+                <input type="text" name="nombre" required id="">
+                <p>Apellido:</p>
+                <input type="text" name="apellido" required id="">
+                <p>Correo electrónico:</p>
+                <input type="email" name="correo" required id="">
+                <p>Teléfono:</p>
+                <input type="tel" name="telefono" required id="">
+                <p>Seleccionar Servicio:</p>
+                <select name="servicioSeleccionado" id="">
+                    <option value="">Diseño Web</option>
+                    <option value="">Ecommerce</option>
+                    <option value="">Marketing Digital</option>
+                    <option value="">Redes Sociales</option>
+                </select>
+                <p>Comentarios:</p>
+                <input type="text" name="comentarios" required id="">
+
+                <input type="submit" value="Enviar">
+
+            </form>
+        </section>
+    </main>
+    <!--FIN quienes somos?-->
+    <!--Fotter-->
+    <footer class="footerPlal">
+        <article class="footer1">
+            <h3>YouX
+                Agencia de Marketing Digital</h3>
+            <p>Todas las soluciones para tu negocio online en un sólo lugar</p>
+            <img class="footerImg" src="./img/contactanos2.png" alt="contactenos2">
         </article>
-    </section>
-  
-<!--Fin inicio-->
-<!--tarjetas-->
-<h3>SERVICIOS</h3>
-<section class="tarjetasPrincipal">
-    <article class="tarjetas1">
-        <h2>Tienda Online</h2>
-        <img src="./img/img1.jpg" alt="img1">
-    </article>
-
-    <article class="tarjetas2">
-        <h2>Inboud Marketing</h2>
-        <img  src="./img/img2.jpg" alt="img2">
-    </article>
-
-    <article class="tarjetas3">
-        <h2>Email Marketing</h2>
-        <img src="./img/img3.jpg" alt="img3">
-        
-    </article>
-
-    <article class="tarjetas4">
-        <h2>Web</h2>
-        <img src="./img/img4.jpg" alt="img4">
-    </article>
-
-    <article class="tarjetas5">
-        <h2>Sitio Institucional</h2>
-        <img src="./img/img5.jpg" alt="img5">
-    </article>
-
-    <article class="tarjetas6">
-        <h2>Landing Web</h2>
-        <img src="./img/img6.jpg" alt="img6">
-    </article>
-</section>
-<!--fin tarjetas-->
-<!--COMO VENDER??-->
-<section class="comoVender">
-    <article class="comoVender2">
-    <h2>COMO VENDER EN INTERNET</h2>
-    <P>YouX Ecommerce, es la mejor solución disponible para desarrollar tu comercio electrónico totalmente personalizado que atrae y convierte visitantes en compradores</P>
-    </article>
-    <img class="cV2" src="./img/comovender.jpg" alt="como-vender">
-</section>
-<!--COMO VENDER??-->
-<!--quienes somos?-->
-<section class="quienesSomos">
-    <article class="quienesSomos2">
-    <h3>Quienes Somos?</h3>
-    <p>Somos una agencia de marketing digital multiservicio operando desde el 2022
-        Nuestra promesa es generar y desarrollar las estrategias de marketing digital orientadas a objetivos de comunicación y comerciales. Aplicada a nuestra experiencia, disciplina y creativas con ideas innovadoras.
-        Hemos desarrollado campañas y proyectos en 18 países.
-        LIMA -  RIO DE JANEIRO</p>
-    </article>
-        <img src="./img/quienesomos.jpg" alt="quiene-somos">
-</section>
-<section class="formulario">
-    <h2>Consulta por nuestros servicios</h2>
-    <form action="exitoso.html" method="get" enctype="application/x-www-form-urlencoded">
-        <p>Nombre:</p>
-        <input type="text" name="nombre" required id="" > 
-        <p>Apellido:</p>
-        <input type="text" name="apellido" required id="">
-        <p>Correo electrónico:</p>
-        <input type="email" name="correo" required id="">
-        <p>Teléfono:</p>
-        <input type="tel" name="telefono" required id="">
-        <p>Seleccionar Servicio:</p>
-        <select name="servicioSeleccionado" id="">
-            <option value="">Diseño Web</option>
-            <option value="">Ecommerce</option>
-            <option value="">Marketing Digital</option>
-            <option value="">Redes Sociales</option>
-        </select>
-        <p>Comentarios:</p>
-        <input type="text" name="comentarios" required id="">
-
-        <input type="submit" value="Enviar">
-
-    </form>
-</section>
-</main>
-<!--FIN quienes somos?-->
-<!--Fotter-->
-<footer class="footerPlal" >
-    <article class="footer1">
-    <h3>YouX 
-        Agencia de Marketing Digital</h3>
-    <p>Todas las soluciones para tu negocio online en un sólo lugar</p>
-    <img class="footerImg" src="./img/contactanos2.png" alt="contactenos2">
-    </article>
-     <article class="footer2">
-    <p>Design by Marcos Ferrari — Copyright 2022</p>
-    <img class="imgwp" src="./img/wp.svg" alt="wp">
-    <img class="imgwp" src="./img/tw.svg" alt="ld">
-  </article>
-</footer>
-<!--Fin Fotter-->
+        <article class="footer2">
+            <p>Design by Marcos Ferrari — Copyright 2022</p>
+            <img class="imgwp" src="./img/wp.svg" alt="wp">
+            <img class="imgwp" src="./img/tw.svg" alt="ld">
+        </article>
+    </footer>
+    <!--Fin Fotter-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
+
 </html>
 <!---->
