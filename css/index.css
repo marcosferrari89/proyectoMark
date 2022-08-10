@@ -1,0 +1,202 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+</style>
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+img{
+    width: 100%;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: #FFFBFB;
+}
+body {
+    width: 100%;
+    min-height:100vh;
+    line-height: 1.5;
+    background-color: black;
+}
+h2 {
+    color: #FFFBFB;
+    font-size: 20px;
+}
+h3{
+    color: #FFFBFB;
+    font-size: 20px;
+}
+p{
+    color: #FFFBFB;
+    font-size: 20px;
+}
+
+button, 
+input, 
+textarea, 
+select{
+    font: inherit;
+}
+/*fin reset*/
+
+header{
+    background-color: #a08a8a;
+    padding: 1rem;
+    
+
+}
+.header__nav {
+    display:flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.header__logo {
+    display: flex;
+    max-width: 150px;
+    min-width: 120px;
+}
+
+.header__ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    
+}
+.header__li {
+    color: white;
+    font-size: 20px;
+}
+
+.header__li:hover {
+    background-color: white
+} 
+
+.present {
+    background-image: url(img/unsplash_RnCPiXixooY.jpg);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+ 
+.titulo {
+    
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 70px;
+    
+    letter-spacing: -0.5px;
+    
+    color: #FFFFFF;
+}
+
+.titulo2 {
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+/* or 150% */
+
+
+letter-spacing: -0.5px;
+
+color: #FFFBFB;
+}
+.contactanos1 {
+height: 135px;
+width: 400px;
+left: 96px;
+top: 595px;
+
+
+
+}
+
+/* tarjetas*/
+
+.tarjetasPrincipal {
+    background-color: black;
+    display: grid;
+    place-items: center ;
+}
+
+
+.comoVender {
+    background-image: url(img/unsplash_RnCPiXixooY.jpg);
+    padding: 40px;
+    display: grid;
+    place-items: center ;
+}
+.comoVender2 {
+    min-width: 200px;
+    padding: 10px;
+    display: grid;
+    place-items: center ;
+
+
+}
+.cV2 {
+    max-width: 450px;
+    flex-direction: inherit;
+}
+
+.quienesSomos {
+    padding: 40px;
+    display: grid;
+    place-items: center ;
+
+}
+.quienesSomos2 {
+    display: inline;
+    min-width: 200px;
+}
+.formulario {
+    justify-content: center;
+    padding-left: 100px;
+    background-color:#a08a8a;
+}
+.footerPlal {
+    background-image: url(img/footer.jpg);
+}
+.footer {
+    display:inline;
+    justify-content: space-between;
+    align-items: center;
+}
+.footerImg {
+    max-width: 300px;
+}
+.imgwp {
+    max-width:  30px; 
+    padding: 30px;
+}
+
+@media (min-width:760px) {
+    .tarjetasPrincipal {
+     grid-template-columns: repeat(3, 1fr);
+    }
+    .comoVender {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .quienesSomos {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
