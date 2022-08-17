@@ -21,19 +21,24 @@
             <img class="header__logo" src="./img/logo.svg" alt="YouX">
             <ul class="header__ul">
                 <li class="header__li">
-                    <a  href="./index.html">Home</a>
+                    <a class="btn btn-outline-dark btn-lg" 
+                     href="./index.html" role="button">Home</a>
                 </li>
                 <li class="header__li">
-                    <a href="./pages/ecommerce.html">Ecommerce</a>
+                    <a class="btn btn-outline-dark btn-lg" 
+                    href="./pages/ecommerce.html" role="button">Ecommerce</a>
                 </li>
                 <li class="header__li">
-                    <a href="./pages/diseñoWeb.html">Diseño Web</a>
+                    <a class="btn btn-outline-dark btn-lg" 
+                    href="./pages/diseñoWeb.html" role="button">Diseño Web</a>
                 </li>
                 <li class="header__li">
-                    <a href="./pages/marketingDigital.html">Marketing Digital</a>
+                    <a class="btn btn-outline-dark btn-lg" 
+                    href="./pages/marketingDigital.html" role="button">Marketing Digital</a>
                 </li>
                 <li class="header__li">
-                    <a href="./pages/redesSociales.html">Redes Sociales</a>
+                    <a class="btn btn-outline-dark btn-lg" 
+                    href="./pages/redesSociales.html" role="button">Redes Sociales</a>
                 </li>
             </ul>
         </nav>
@@ -52,41 +57,42 @@
             Marketing
             Digital</h1>
             <h2 class="titulo2">Servicios de Publicidad y Marketing para Ecommerce</h2>
-            <img class="contactanos1" src="./img/botoncontactanos.png" alt="contactanos">
+            <!-- <img class="contactanos1" src="./img/botoncontactanos.png" alt="contactanos"> -->
+            <a href="./exitoso.html"><img class="contactanos1" src="./img/botoncontactanos.png" alt="contactanos"></a>
         </article>
     </section>
   
 <!--Fin inicio-->
 <!--tarjetas-->
 <h3>SERVICIOS</h3>
-<section  class="tarjetasPrincipal" >
-    <article class="tarjetas1">
+<section  class="row" >
+    <article class="col-md-4">
         <h2>Tienda Online</h2>
         <img src="./img/img1.jpg" alt="img1" data-aos="fade-up-right" >
     </article>
 
-    <article class="tarjetas2">
+    <article class="col-md-4">
         <h2>Inboud Marketing</h2>
         <img  src="./img/img2.jpg" alt="img2" data-aos="fade-up-right">
     </article>
 
-    <article class="tarjetas3">
+    <article class="col-md-4">
         <h2>Email Marketing</h2>
         <img src="./img/img3.jpg" alt="img3" data-aos="fade-up-right">
         
     </article>
 
-    <article class="tarjetas4">
+    <article class="col-md-4">
         <h2>Web</h2>
         <img src="./img/img4.jpg" alt="img4" data-aos="fade-up-right">
     </article>
 
-    <article class="tarjetas5">
+    <article class="col-md-4">
         <h2>Sitio Institucional</h2>
         <img src="./img/img5.jpg" alt="img5" data-aos="fade-up-right">
     </article>
 
-    <article class="tarjetas6">
+    <article class="col-md-4">
         <h2>Landing Web</h2>
         <img src="./img/img6.jpg" alt="img6" data-aos="fade-up-right">
     </article>
@@ -94,12 +100,12 @@
 
 <!--fin tarjetas-->
 <!--COMO VENDER??-->
-<section class="comoVender">
-    <article class="comoVender2">
+<section class="row">
+    <article class="col-md-6">
     <h2>COMO VENDER EN INTERNET</h2>
     <P>YouX Ecommerce, es la mejor solución disponible para desarrollar tu comercio electrónico totalmente personalizado que atrae y convierte visitantes en compradores</P>
     </article>
-    <img class="cV2" src="./img/comovender.jpg" alt="como-vender" data-aos="fade-up-right">
+    <img class="col-md-6" src="./img/comovender.jpg" alt="como-vender" data-aos="fade-up-right">
 </section>
 <!--COMO VENDER??-->
 <!--quienes somos?-->
@@ -113,7 +119,15 @@
     </article>
         <img src="./img/quienesomos.jpg" alt="quiene-somos" data-aos="fade-up-right">
 </section>
-<section class="formulario">
+<div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Email address</label>
+  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+</div>
+<div class="mb-3">
+  <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+</div>
+<!-- <section class="formulario">
     <h2>Consulta por nuestros servicios</h2>
     <form action="exitoso.html" method="get" enctype="application/x-www-form-urlencoded">
         <p>Nombre:</p>
@@ -134,9 +148,7 @@
         <p>Comentarios:</p>
         <input type="text" name="comentarios" required id="">
 
-        <input type="submit" value="Enviar">
-
-    </form>
+        <input type="submit" value="Enviar"> -->
 </section>
 </main>
 <!--FIN quienes somos?-->
