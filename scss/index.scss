@@ -1,0 +1,125 @@
+@import './utilities/normalize';
+@import '../partials/header';
+@import '../partials/footer';
+
+.present {
+    background-image: url(img/unsplash_RnCPiXixooY.jpg);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+ 
+.titulo {
+    
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 70px;
+    margin-left: 5%;
+    letter-spacing: -0.5px;
+    
+    color: #FFFFFF;
+    animation:tracking-in-expand-fwd-top 3s cubic-bezier(.215,.61,.355,1.000) both;
+}
+
+.titulo2 {
+
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 600;
+margin-left: 5%;
+font-size: 24px;
+line-height: 36px;
+/* or 150% */
+
+
+letter-spacing: -0.5px;
+
+color: #FFFBFB;
+}
+.contactanos1 {
+height: 135px;
+width: 400px;
+left: 96px;
+top: 595px;
+animation:bounce-top 5s both;
+}
+
+/* tarjetas*/
+
+.tarjetasPrincipal {
+    background-color: black;
+    display: grid;
+    place-items: center ;   
+}
+.comoVender {
+    background-image: url(img/unsplash_RnCPiXixooY.jpg);
+    padding: 40px;
+    display: grid;
+    place-items: center ;
+    margin-top: 20px;
+}
+.comoVender2 {
+    min-width: 200px;
+    padding: 10px;
+    display: grid;
+    place-items: center ;
+}
+.cV2 {
+    max-width: 450px;
+    flex-direction: inherit;
+}
+
+.quienesSomos {
+    padding: 40px;
+    display: grid;
+    place-items: center ;
+
+}
+.quienesSomos2 {
+    display: inline;
+    min-width: 200px;
+}
+.formulario {
+    justify-content: center;
+    padding-left: 100px;
+    background-color:#a08a8a;
+}
+
+@media (min-width:760px) {
+    .tarjetasPrincipal {
+     grid-template-columns: repeat(3, 1fr);
+    }
+    .comoVender {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .quienesSomos {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .present {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .generic {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* ecommerce*/
+.ecommercee {
+   animation:tracking-in-expand-fwd-top 3s cubic-bezier(.215,.61,.355,1.000) both;
+   display: grid;
+   margin-left: 5%;
+   margin-right: 5%;
+}
+.generic {
+    background-image: url(img/unsplash_RnCPiXixooY.jpg);
+    display: grid; 
+    place-items: center; 
+}
+
+@keyframes rotate-vert-center{0%{transform:rotateY(0)}100%{transform:rotateY(360deg)}}
+@keyframes tracking-in-expand-fwd-top{0%{letter-spacing:-.5em;transform:translateZ(-700px) translateY(-500px);opacity:0}40%{opacity:.6}100%{transform:translateZ(0) translateY(0);opacity:1}}
+@keyframes bounce-top{0%{transform:translateY(-45px);animation-timing-function:ease-in;opacity:1}24%{opacity:1}40%{transform:translateY(-24px);animation-timing-function:ease-in}65%{transform:translateY(-12px);animation-timing-function:ease-in}82%{transform:translateY(-6px);animation-timing-function:ease-in}93%{transform:translateY(-4px);animation-timing-function:ease-in}25%,55%,75%,87%{transform:translateY(0);animation-timing-function:ease-out}100%{transform:translateY(0);animation-timing-function:ease-out;opacity:1}}
+
