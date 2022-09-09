@@ -38,8 +38,8 @@ select {
 
 /*fin reset*/
 header {
-  background-color: black;
-  padding: 1rem; }
+  padding: 1rem;
+  background-image: url(img/footer.jpg); }
 
 .header__nav {
   display: flex;

@@ -1,9 +1,6 @@
 header {
-  background-color: black;
   padding: 1rem;
-
-
-
+  background-image: url(img/footer.jpg)
 }
 
 .header__nav {
@@ -19,7 +16,6 @@ header {
   max-width: 150px;
   min-width: 120px;
   animation: rotate-vert-center 3s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
-
 }
 
 .header__ul {
