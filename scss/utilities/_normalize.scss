@@ -1,44 +1,50 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
 @import 'variables';
 
-html{
-    font-size: 62.5%;
-}
-img{
-    width: 100%;
-}
-ul {
-    list-style-type: none;
-}
-a {
-    text-decoration: none;
-    color: $principal-font-color;
-}
-body {
-    width: 100%;
-    min-height:100vh;
-    line-height: 1.5;
-    background-color: black;
-}
-h2 {
-    color: $principal-font-color;
-    font-size: 20px
-    
-}
-h3{
-    color: $principal-font-color;
-    font-size: 20px;
-}
-p{
-    color: $principal-font-color;
-    font-size: 20px;
+html {
+  font-size: 62.5%;
 }
 
-button, 
-input, 
-textarea, 
-select{
-    font: inherit;
+img {
+  width: 100%;
 }
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: $principal-font-color;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  line-height: 1.5;
+  background-color: black;
+}
+
+h2 {
+  color: $principal-font-color;
+  font-size: 20px
+}
+
+h3 {
+  color: $principal-font-color;
+  font-size: 20px;
+}
+
+p {
+  color: $principal-font-color;
+  font-size: 20px;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
 /*fin reset*/

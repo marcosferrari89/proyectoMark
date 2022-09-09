@@ -94,8 +94,8 @@ header {
   font-family: 'Manrope';
   font-style: normal;
   font-weight: 700;
-  font-size: 64px;
-  line-height: 70px;
+  font-size: 54px;
+  line-height: 60px;
   margin-left: 5%;
   letter-spacing: -0.5px;
   color: #FFFFFF;
@@ -154,7 +154,7 @@ header {
 .formulario {
   justify-content: center;
   padding-left: 100px;
-  background-color: #a08a8a; }
+  background-image: url(img/unsplash_RnCPiXixooY.jpg); }
 
 @media (min-width: 760px) {
   .tarjetasPrincipal {
