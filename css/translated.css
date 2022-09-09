@@ -38,7 +38,7 @@ select {
 
 /*fin reset*/
 header {
-  background-color: #a08a8a;
+  background-color: black;
   padding: 1rem; }
 
 .header__nav {
